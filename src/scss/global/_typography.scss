@@ -1,0 +1,42 @@
+@mixin textLargeExtra {
+    font-family: $Helvetica;
+    font-size: $fs76;
+    line-height: $lh76;
+}
+
+@mixin textLarge {
+    font-family: $Helvetica;
+    font-size: $fs70;
+    line-height: $lh70;
+}
+
+@mixin textNormal_lh32 {
+    font-family: $Helvetica;
+    font-size: $fs32;
+    line-height: $lh32;
+}
+
+@mixin textNormal_48 {
+    font-family: $Helvetica;
+    font-size: $fs32;
+    line-height: $lh48;
+    letter-spacing: 0.04em;
+}
+
+@mixin textSmall_lh20 {
+    font-family: $Helvetica;
+    font-size: $fs24;
+    line-height: $lh20;
+}
+
+@mixin textSmall_lh24 {
+    font-family: $Helvetica;
+    font-size: $fs24;
+    line-height: $lh24;
+}
+
+@mixin textSmall_lh36 {
+    font-family: $Helvetica;
+    font-size: $fs24;
+    line-height: $lh36;
+}
