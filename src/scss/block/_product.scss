@@ -1,0 +1,28 @@
+.product-section {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 60px 0 0 0;
+    background-color: purple;
+    position: relative;
+    @include center_sb;
+    &__description {
+        width: 25vw;
+    }
+    &__photo {
+        width: 37.5vw;
+        height: 100vh;
+    }
+}
+
+.breadcrumbs {
+    position: absolute;
+    z-index: 1;
+    @include textSmall_lh24;
+    padding: 0 0 0 50px;
+    top: 20px;
+    color: #8c8c8c;
+}
+
+@media screen and (max-width: 1439px) {}
+
+@media screen and (max-width: 1139px) {}

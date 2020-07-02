@@ -1,0 +1,33 @@
+.banner {
+    &Big {
+        &-list {
+            @include center_sb;
+            min-height: 100%;
+            width: 100%;
+        }
+        &-item {
+            min-height: 100vh;
+            width: 100%;
+        }
+    }
+    &Small {
+        &-list {
+            @include center_sb;
+            width: 100%;
+            height: 425px;
+        }
+        &-item {
+            min-height: 100%;
+            width: 100%;
+        }
+    }
+    &-one {
+        background-color: #b9c8cb;
+    }
+    &-two {
+        background-color: #dab4af;
+    }
+    &-three {
+        background-color: #d3dae2;
+    }
+}

@@ -1,0 +1,8 @@
+.footer {
+    @include center_column;
+    &-content {
+        padding: 60px 0 60px 0;
+        @include center_sb;
+        align-items: flex-start;
+    }
+}

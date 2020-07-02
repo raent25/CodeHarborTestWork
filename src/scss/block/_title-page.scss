@@ -1,0 +1,47 @@
+.firstBlock-page {
+    background-color: #3a2511;
+}
+
+.firstBlock-content {
+    min-height: 100vh;
+    padding: 65px 0 100px 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.secondBlock-page {
+    background-color: #decfa7;
+}
+
+.secondBlock-content {
+    min-height: 100vh;
+    padding: 0 0 0 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.thirdBlock-page {
+    background-color: #c9cb7b;
+}
+
+.thirdBlock-content {
+    min-height: 100vh;
+    padding: 0 0 150px 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fourthBlock-page {
+    background-color: #99cb7b;
+}
+
+.fourthBlock-content {
+    min-height: 100vh;
+    padding: 0 0 100px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

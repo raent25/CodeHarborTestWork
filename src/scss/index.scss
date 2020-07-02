@@ -1,5 +1,14 @@
 @import "global/reset";
-@import "global/fonts";
 @import "global/variables";
+@import "global/fonts";
 @import "global/mixins";
 @import "global/typography";
+@import "block/elem";
+@import "block/header";
+@import "block/title-page";
+@import "block/banner";
+@import "block/instagram";
+@import "block/feedback";
+@import "block/footer";
+@import "block/cargo";
+@import "block/product";

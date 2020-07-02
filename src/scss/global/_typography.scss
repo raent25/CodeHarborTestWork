@@ -16,7 +16,7 @@
     line-height: $lh32;
 }
 
-@mixin textNormal_48 {
+@mixin textNormal_lh48 {
     font-family: $Helvetica;
     font-size: $fs32;
     line-height: $lh48;
@@ -39,4 +39,47 @@
     font-family: $Helvetica;
     font-size: $fs24;
     line-height: $lh36;
+}
+
+//
+//
+//
+.width-content {
+    max-width: 2500px;
+    width: 100vw;
+}
+
+.page {
+    width: $vw100;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 0 190px 0 190px;
+    @include center;
+}
+
+@media screen and (max-width: 2879px) {
+    .width-content {
+        max-width: 1250px;
+    }
+    .page {
+        padding: 0 95px 0 95px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .width-content {
+        max-width: 1020px;
+    }
+    .page {
+        padding: 0 60px 0 60px;
+    }
+}
+
+@media screen and (max-width: 1139px) {
+    .width-content {
+        max-width: 738px;
+    }
+    .page {
+        padding: 0 15px 0 15px;
+    }
 }

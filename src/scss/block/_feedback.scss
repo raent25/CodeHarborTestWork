@@ -1,0 +1,26 @@
+.feedback {
+    min-height: 260px;
+    padding: 90px 0 0 0;
+    &__form {
+        width: 400px;
+        border-bottom: 2px solid #d8d8d8;
+        @include center_sb;
+    }
+    &__email {
+        border: none;
+    }
+    &__btn {
+        background-color: transparent;
+        border: none;
+        letter-spacing: 0.04em;
+    }
+    &__text {
+        @include textSmall_lh24;
+        padding-bottom: 40px;
+        @include center;
+    }
+    &__header {
+        padding-bottom: 16px;
+        @include center;
+    }
+}

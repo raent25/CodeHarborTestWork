@@ -1,0 +1,46 @@
+.block-des {
+    color: $white;
+    width: 500px;
+    &__header {
+        @include textLargeExtra;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+    &__description {
+        @include textNormal_lh48;
+        padding-bottom: 30px;
+    }
+    &__btn {
+        border: 2px solid $white;
+        box-sizing: border-box;
+        @include textNormal_lh32;
+        @include center;
+        text-transform: uppercase;
+        height: 50px;
+        padding: 0 37px 0 37px;
+        background-color: transparent;
+        color: $white;
+    }
+}
+
+.h3 {
+    @include textNormal_lh48;
+    color: $black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.list {
+    padding: 10px 0 0 0;
+    &__icon {
+        padding: 0 10px 0 0;
+    }
+    &__item {
+        @include textSmall_lh24;
+        text-transform: uppercase;
+        padding: 20px 0 0 0;
+        &-normalText {
+            text-transform: none;
+        }
+    }
+}
